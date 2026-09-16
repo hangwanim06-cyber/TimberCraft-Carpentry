@@ -48,3 +48,61 @@ PART1/
 ├── script.js
 ├── services.html
 └── README.md
+
+# TimberCraft Carpentry
+
+## Part 2 – CSS Styling and Responsive Design
+
+### CSS Styling
+
+For Part 2, an external CSS stylesheet was created and linked to all HTML pages of the TimberCraft Carpentry website.
+
+The stylesheet was used to provide consistent styling throughout the website, including:
+
+- Font family and font sizes
+- Colours
+- Background colours
+- Margins and padding
+- Borders and rounded corners
+- Button styling
+- Navigation styling
+- Page layout
+- Responsive design
+
+### Responsive Design
+
+The website was tested at different screen sizes to ensure that the layout adapts to different devices.
+
+The following screen sizes were tested:
+
+- Mobile: 400 × 861
+- Tablet: 768 × 1024
+- Desktop: 1366 × 768
+
+The website uses responsive CSS techniques to ensure that content, navigation, images and sections adjust to different screen sizes.
+
+### Forms and JavaScript
+
+The enquiry and contact forms were tested to ensure that users can enter the required information.
+
+JavaScript was used to display a confirmation message when the form is submitted and to clear the form after submission.
+
+### Changelog
+
+#### Part 2 Changes
+
+- Updated the website based on feedback from Part 1.
+- Added and improved CSS styling.
+- Applied consistent colours, fonts and spacing.
+- Improved the layout of website sections.
+- Added responsive styling for different screen sizes.
+- Tested the website on mobile, tablet and desktop screen sizes.
+- Improved the enquiry and contact forms.
+- Added JavaScript form submission functionality.
+- Added additional business information and services.
+- Updated the website content and navigation.
+
+### References
+
+- W3Schools. HTML and CSS tutorials.
+- MDN Web Docs. HTML, CSS and responsive design documentation.
