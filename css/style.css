@@ -1,55 +1,38 @@
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body */
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f2ed;
-    color: #222;
-    line-height: 1.5;
+    background-color: #f7f3ed;
+    color: #2d2a25;
 }
 
-/* Header */
 header {
-    background-color: #754c29;
+    background-color: #704b2b;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-header h1 {
-    margin-bottom: 15px;
-}
-
-/* Navigation */
 nav {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
+    margin-top: 15px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    margin: 0 10px;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-/* Main content */
 main {
     width: 90%;
     max-width: 1000px;
-    margin: 40px auto;
+    margin: auto;
+    padding: 40px 0;
 }
 
-/* Sections */
 section {
     background-color: white;
     padding: 25px;
@@ -57,32 +40,29 @@ section {
     border-radius: 8px;
 }
 
-/* Headings */
 h2 {
-    color: #754c29;
-    margin-bottom: 15px;
+    color: #704b2b;
 }
 
 h3 {
-    color: #8a5a2b;
-    margin-bottom: 10px;
+    color: #8b5e34;
 }
 
-/* Paragraphs */
-p {
-    margin-bottom: 15px;
+a {
+    color: #704b2b;
 }
 
-/* Images */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+button {
+    background-color: #704b2b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-/* Forms */
-form {
-    width: 100%;
+button:hover {
+    background-color: #54371f;
 }
 
 input,
@@ -95,52 +75,9 @@ textarea {
     border-radius: 5px;
 }
 
-/* Buttons */
-button {
-    background-color: #754c29;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #5a391f;
-}
-
-/* Footer */
 footer {
-    background-color: #754c29;
+    background-color: #2d2a25;
     color: white;
     text-align: center;
-    padding: 15px;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-
-    nav {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    main {
-        width: 95%;
-        margin: 20px auto;
-    }
-
-    section {
-        padding: 20px;
-    }
-
-    header h1 {
-        font-size: 26px;
-    }
-
-    input,
-    select,
-    textarea {
-        width: 100%;
-    }
+    padding: 20px;
 }
